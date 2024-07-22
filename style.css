@@ -1,20 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-body{
-    padding: px;
-    border:0px;
-    margin: 0 auto;
+
+body {
+  padding: 0;
+  border: 0;
+  margin: 0 auto;
 }
-img{
+
+img {
   border-radius: 5px;
 }
+
+nav {
+  background-color: crimson;
+}
+
+.navbar {
+  height: 7vh;
+}
+
+.nav-content {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding-top:10px;
+  padding-left: 35vh;
+  padding-right:35vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size:xx-large;
+}
+.menu-content {
+  display: flex;
+  margin:10px
+}
+
+.m {
+  padding-left: 25px;
+}
+
+nav .nav-content div a {
+  color: white;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+nav .nav-content div a span {
+  color: black;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
 .home {
   display: flex;
   background: url(/i1.png) no-repeat top left fixed;
@@ -24,89 +72,122 @@ img{
   font-family: "Ubuntu Sans", sans-serif;
   background-size: cover;
   background-attachment: fixed;
-  
 }
 
-.sec {
-  text-align: center;
-  font-size: x-large;
-  text-decoration:underline;
-  color: rgb(0, 0, 0);
-  font-family: "Ubuntu Sans", sans-serif;
-  margin-bottom: 45px;
-  margin-top:70px;
+.home-content {
+  padding: 35vh;
 }
-section {
-  padding: 0;
-  height:100vh
-}
-.home .home-content .text-2 {
-  color: rgb(255, 255, 255);
-  font-weight: 900;
-  font-size: 70px;
-}
+
 .home .home-content .text-1 {
   color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 27px;
 }
+
+.home .home-content .text-2 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 70px;
+}
+
 .home .home-content .text-3 {
   color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 35px;
 }
-.nav-content{
-    font-family:  "Ubuntu Sans", sans-serif;
-    font-weight: bold;
-    margin:0;
-    padding:0;
-    display: flex;
+
+.sec {
+  text-align: center;
+  font-size: x-large;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  font-family: "Ubuntu Sans", sans-serif;
+  margin-bottom: 45px;
+  margin-top: 70px;
 }
-nav .nav-content div a {
-  color: rgb(255, 255, 255);
-  font-weight: 35px;
-  font-size: 35px;
-  margin: 0;
-  border: 0;
+
+section {
   padding: 0;
+  height: 100vh;
 }
-nav .nav-content div a span {
-  color: crimson;
-  margin: 0;
-  border: 0;
-  padding: 0;
-}
-.navbar{
-    justify-content: space-between;
-}
+
 .about {
   font-family: "Poppins", sans-serif;
 }
-.res{
+
+.about-content {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.about-left {
+  width: 50%;
+  text-align: center;
+}
+
+.profile {
+  width: 75%;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.about-right {
+  width: 50%;
+  margin: 0 25px 25px 25px;
+}
+
+.res {
   margin-top: 35px;
   text-align: center;
 }
+
 .res-button {
   color: white;
   background-color: crimson;
   height: 50px;
   padding: 20px 20px;
   border-radius: 5px;
-
 }
+
+.qualification {
+  padding-left: 35vh;
+  padding-right: 35vh;
+}
+
 .education {
   font-family: "Poppins", sans-serif;
 }
 
-.year-con{
-    color:red;
-    text-align: center;
-    ;
+.ed {
+  padding-bottom: 75px;
 }
-nav {
-  background-color: crimson;
+
+.edu {
+  display: flex;
 }
-.foot{
+
+.institute {
+  width: 50%;
+}
+
+.in {
+  font-size: xx-large;
+}
+
+.grade {
+  font-size: large;
+  color: crimson;
+}
+
+.year-con {
+  color: red;
+  text-align: center;
+  width: 50%;
+  text-align: right;
+}
+
+.foot {
   background-color: black;
   color: grey;
   padding: 50px;
@@ -114,30 +195,7 @@ nav {
   margin: 0px;
   text-align: center;
 }
-.logo{
-    padding:10px
-}
-.edu{
-    display:flex;
-}
-.role{
-    color: crimson;
-}
-.about-content{
-  display: flex;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-.about-left{
-  width:50%;
-  text-align: center
-}
-.about-right{
-  width:50%;
-  margin:0 25px 25px 25px;
-}
-.profile{
-  width: 75%;
-  padding: 25px;
-  border-radius: 5px;
+
+.role {
+  color: crimson;
 }
