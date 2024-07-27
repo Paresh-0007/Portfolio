@@ -1,0 +1,89 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+body,html{
+    margin:0;
+    font-family: "Ubuntu Sans", sans-serif;
+    
+}
+.navbar{
+    background-color: crimson;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-content{
+    display:flex;
+    justify-content: space-between;
+}
+.m{
+    padding-left:10px;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    margin: auto;
+}
+.home{
+    background: url(/i1.png) no-repeat fixed;
+    background-attachment: fixed;
+    color: white;
+    max-width: 100%;
+    height:100vh;
+}
+
+.home-content{
+    padding:35vh;
+    font-size:50px;
+    font-weight:900;
+}
+.text-1{
+    text-align: left;
+}
+.text-2{
+    text-align: left;
+}
+.text-3{
+    text-align: left;
+}
+.role{
+    color:crimson
+}
+.logo-content{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.sec{
+    font-size:x-large;
+    text-decoration: underline;
+    text-align: center;
+}
+.about {
+    font-family: "Poppins", sans-serif;
+    margin-left: 25vh;
+    margin-right:25vh;
+}
+.about-content{
+    display: flex;
+    margin:auto;
+}
+.about-left{
+    max-width: 50%;
+    text-align: center;
+}
+.about-right{
+    max-width: 50% auto;
+    text-align:justify;
+    width:50%;
+}
+button{
+    color: white;
+    background-color: crimson;
+    border:0;
+    height: 40px;
+    border-radius: 5px;
+}
